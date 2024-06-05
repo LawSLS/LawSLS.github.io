@@ -3,11 +3,3 @@ main {
     margin-bottom: 40px;
 }
 
-main .container .img{
-    background-image: url(/ressources/img/mcd-sql.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 80%;
-    padding-bottom: 550px;
-    
-}
