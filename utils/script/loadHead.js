@@ -1,5 +1,5 @@
 // loadHead.js
-fetch("/ressources/utils/html/header.html")
+fetch("/utils/html/header.html")
   .then((response) => response.text())
   .then((data) => {
     document.head.insertAdjacentHTML("afterbegin", data);

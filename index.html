@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portfolio</title>
-    <script src="/ressources/utils/script/loadHead.js"></script>
-    <link rel="stylesheet" href="/ressources/css/style.css" />
+    <script src="/utils/script/loadHead.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
@@ -111,16 +111,15 @@
                 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
               /></svg
           ></a>
-          <a class="navbar-brand" href="#"
-            >André Dias Da Silva © <span id="fullYear"></span
-          ></a>
+          <p class="pt-3 italicBoldText">
+            André Dias Da Silva <span id="fullYear"></span> ©
+          </p>
         </div>
       </nav>
     </footer>
+    <script src="/utils/script/functionsJS.js"></script>
     <script>
-      const year = new Date();
-      const fullYear = year.getFullYear();
-      document.querySelector("#fullYear").innerHTML = fullYear;
+      setFullYear("fullYear");
     </script>
   </body>
 </html>
