@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Portfolio</title>
     <script src="/utils/script/loadHead.js"></script>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
+      <h1 hidden>Mon portfolio</h1>
       <nav class="navbar shadow">
         <div class="container-fluid d-flex justify-content-center">
           <a class="navbar-brand" href="index.html">Accueil</a>
@@ -19,7 +19,7 @@
     </header>
     <main>
       <div class="container mt-4">
-        <div class="d-flex rounded shadow">
+        <div class="d-flex rounded shadow mb-5">
           <div class="row">
             <div class="col-2 d-flex justify-content-center align-items-center">
               <svg
@@ -27,6 +27,7 @@
                 height="60"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 512"
+                aria-hidden="true"
               >
                 <path
                   d="M320 0c17.7 0 32 14.3 32 32V96H472c39.8 0 72 32.2 72 72V440c0 39.8-32.2 72-72 72H168c-39.8 0-72-32.2-72-72V168c0-39.8 32.2-72 72-72H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256a40 40 0 1 0 -80 0 40 40 0 1 0 80 0zm152 
@@ -34,14 +35,13 @@
                 />
               </svg>
             </div>
-            <div
-              class="col-10 d-flex justify-content-center align-items-center"
-            >
-              <p>
+            <article class="col-10">
+              <h6 class="text-center pt-3">Présentation</h6>
+              <p class="p-2">
                 Je m'appelle André Dias Da Silva, j'ai un double diplôme, un
                 master en Relations Internationales, et un MBA en E-Business. Je
-                suis arrivé dans le monde du développement par le biais d'une
-                reconversion professionnelle suite à une maladie
+                suis arrivé dans le monde du développement web par le biais
+                d'une reconversion professionnelle suite à une maladie
                 professionnelle. J'ai choisi de me reconvertir dans le
                 développement web, car j'en avais fait pendant mon MBA et
                 c'était le module que m'avait le plus intéressé. Par ailleurs la
@@ -49,11 +49,11 @@
                 me motive fortement à continuer de m'investir et d'apprendre et
                 à m'auto-former tous les jours.
               </p>
-            </div>
+            </article>
           </div>
         </div>
 
-        <div class="d-flex rounded shadow mt-2 mb-4">
+        <div class="d-flex rounded shadow mb-5">
           <div class="row">
             <div class="col-2 d-flex justify-content-center align-items-center">
               <svg
@@ -61,6 +61,7 @@
                 height="60"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 640 512"
+                aria-hidden="true"
               >
                 <path
                   d="M384 96V320H64L64 96H384zM64 32C28.7 32 0 60.7 0 96V320c0 35.3 28.7 64 64 64H181.3l-10.7 32H96c-17.7 
@@ -70,25 +71,26 @@
                 />
               </svg>
             </div>
-            <div
-              class="col-10 d-flex justify-content-center align-items-center"
-            >
-              <p>
-                J'ai deux expériences professionnelles dans le milieu du
-                développement, la première avec la CNP (Banque/Assurance) où
-                j'ai appris le fonctionnement d'un ERP (PeopleSoft/Oracle), pour
-                le paramétrer, j'utilisais le langage peoplecode et du SQL. J'ai
-                évolué dans une équipe de 5 développeurs qui utilisait la
-                méthodologie agile scrum pour s'assurer une bonne dynamique de
-                travail. La deuxième avec le gouvernement français dans le
-                domaine de la GED (Gestion Électronique de Documents) où j'ai pu
-                appliquer mes compétences appris lors de ma formation et de mon
-                autoformation. J'ai travaillé avec java, jee, et du javascript
-                principalement, je suis monté en compétences sur l'ensemble des
-                langages et j'ai appris à structurer une application avec le
-                modèle MVC.
+            <article class="col-10">
+              <h6 class="text-center pt-3">Expériences professionnelles</h6>
+              <p class="p-2">
+                J'ai plusieurs expériences professionnelles dans le milieu du
+                développement, la CNP (Banque/Assurance) où j'ai appris le
+                fonctionnement d'un ERP (PeopleSoft/Oracle), pour le paramétrer,
+                j'utilisais le langage peoplecode et du SQL. J'ai évolué dans
+                une équipe de 5 développeurs qui utilisait la méthodologie agile
+                scrum pour s'assurer une bonne dynamique de travail. Au sein du
+                gouvernement français dans le domaine de la GED (Gestion
+                Électronique de Documents) où j'ai travaillé avec java, jee, et
+                du javascript principalement, je suis monté en compétences sur
+                l'ensemble des langages et j'ai appris à structurer une
+                application avec le modèle MVC. Au ministère des finances j'ai
+                développé un outil pour la gestion du parc informatique de la
+                DGFiP en php, postgresql et javascript et un outil pour la
+                gestion des stagiaires de l'ENFiP avec du java, jee, vuejs,
+                javascript, typescript, postgresql.
               </p>
-            </div>
+            </article>
           </div>
         </div>
       </div>
