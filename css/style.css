@@ -2,3 +2,20 @@
   font-style: italic;
   font-weight: bold;
 }
+.picSvg {
+  border: 1px;
+
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.45);
+
+  border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+
+  background-color: #ffffff;
+}
+
+.picRow {
+ border-radius: 100px 0px 0px 100px;
+}
